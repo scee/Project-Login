@@ -82,13 +82,20 @@ form > a.botao{
     font-weight: bold;
     color:black;
     margin-top: 5px;
+    padding: 10px;
 }
+form >a{
+    
+}
+
+
 form > a.botao:hover {
     background-color: #255553;
 }
 
 form > div#campo{
-    background-color: rgb(238, 238, 238);
+    /*background-color: rgb(238, 238, 238);*/
+    /*background-color: #5f2c82;*/
     border-radius: 5px;
     height: 40px;
     margin: 5px 0px;
@@ -105,7 +112,7 @@ div#campo > span {
     font-size: 2em;
 }
 div#campo > input {
-    background-color: ;
+    
     font-size: 1em;
     width: (calc(100% - 40px));
     transform: translateY(-10px);

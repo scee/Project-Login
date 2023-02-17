@@ -8,12 +8,13 @@ pc: 992px até 1200px
 bscreens: + 1200px
 */
 @media screen and (min-width: 768px) and (max-width: 992px){
+    
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
     section#login{
         width: 80vw;
-       
+        height: fit-content;
     }
     section#login > div#img {
         float: left;
@@ -32,7 +33,7 @@ bscreens: + 1200px
     }
     section#login{
         width: 950px;
-        
+        height: fit-content;
     }
     section#login > div#img {
         float: left;
@@ -45,7 +46,7 @@ bscreens: + 1200px
     }
 }
 
-@media screen and(min-width: 1200px){
+@media screen and (min-width: 1200px){
     
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
