@@ -7,32 +7,45 @@ Tablet: 768px até 992px
 pc: 992px até 1200px
 bscreens: + 1200px
 */
+@media screen and (max-width: 768px){
+    section#login > div#img {
+        
+        height: 200px;
+        display: block;
+    }
+    }
+       
+
 @media screen and (min-width: 768px) and (max-width: 992px){
     
-    body{
+    body, html{
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
     section#login{
         width: 80vw;
-        height: fit-content;
+        height: auto;
+        position: fixed;
+
     }
-   #img {
-        float: left;
-        width: 30%;
-        height: 100%;
-        display: block;
-        background-size: contain;
-       
+    div#img {
+    float: left;
+    width: 35%;
+    height: 100%;
+    display: block;
+    background-size: auto;
+    
     }
     section#login > div#formu {
         float: right;
-        width: 70%;
+        width: 65%;
+        display: block;
     }
     div#campo > input {
     
         font-size: 1em;
         width: (calc(100% - 80px));
-       size: 55p;
+        width: 340px;
+        size: 55p;
         height: 74%;
         border-radius: 5px;
         transform: translateY(-10px);
@@ -47,13 +60,13 @@ bscreens: + 1200px
     }
     section#login{
         width: 950px;
-        
+        height: auto;
     }
-    div#img {
+    #img {
         float: right;
         width: 50%;
         height: 100%;
-        
+        background-position: center right;
     }
     section#login > div#formu {
         float: left;
@@ -67,23 +80,35 @@ bscreens: + 1200px
         font-size: 1.2em;
     
     }
+    div#campo > input {
+    
+        font-size: 1em;
+        width: (calc(100% - 80px));
+        width: 400px;
+        size: 55p;
+        height: 74%;
+        border-radius: 5px;
+        transform: translateY(-10px);
+       
+    }
 
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px) {
     
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
     section#login{
         width: 950px;
+        height: auto;
         
     }
-    section#login > div#img {
+    #img {
         float: right;
         width: 50%;
         height: 100%;
-        
+        background-position: top left;
     }
     section#login > div#formu {
         float: left;
@@ -97,5 +122,16 @@ bscreens: + 1200px
         font-size: 1.2em;
     
     }
+    div#campo > input {
+    
+        font-size: 1em;
+        width: (calc(100% - 80px));
+        width: 400px;
+        size: 55p;
+        height: 74%;
+        border-radius: 5px;
+        transform: translateY(-10px);
+       
+    }
 
-}
+} 
