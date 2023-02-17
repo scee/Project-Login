@@ -7,6 +7,7 @@
     <title>SCEE - Login</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mqs.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
@@ -18,10 +19,28 @@
 
             <div id="formu">
                 <h1>Login</h1>
-                <p>Welcome back! <br> Log in to acess and manage your account.</p>
+                <p>Welcome back! <br> Log in to acess your account.</p>
+<br>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div id="campo" >
+                        <span class="material-icons">
+                            email
+                            </span>
+                        <input type="email" name="mail" id="imail" placeholder="me@mail.com" autocomplete="e
+                        " required maxlength="20">
+                        <label for="imail">E-mail:</label>
+                    </div>
+                    <div id="campo">
+                        <span class="material-icons">
+                            lock
+                            </span>
+                        <input type="password" name="senha" id="isenha" placeholder="A1b2c3" autocomplete="current-password" minlength="8" maxlength="12">
+                        <label for="isenha">Password</label>
 
-                <form action="login.php" method="post">
-
+                    </div>
+                    <input type="submit" value="Log in">
+                    <a href="ifg.html" ><i class="material-icons">email
+                    </i> I forgot my password"</a>
                 </form>
 
             </div>

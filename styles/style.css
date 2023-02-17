@@ -47,3 +47,11 @@ section#login > div#formu {
     padding: 10px;
     display: block;
 }
+section#login > div#formu > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+section#login > div#formu > p{
+    font-size: ;
+
+}

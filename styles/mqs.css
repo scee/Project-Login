@@ -13,7 +13,7 @@ bscreens: + 1200px
     }
     section#login{
         width: 80vw;
-        height: ;
+       
     }
     section#login > div#img {
         float: left;
@@ -46,8 +46,31 @@ bscreens: + 1200px
 }
 
 @media screen and(min-width: 1200px){
+    
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     }
-       
+    section#login{
+        width: 950px;
+        
+    }
+    section#login > div#img {
+        float: right;
+        width: 50%;
+        height: 100%;
+        
+    }
+    section#login > div#formu {
+        float: left;
+        width: 50%;
+    }
+    section#login > div#formu > p{
+        font-size: 1.2em;
+    
+    }
+    section#login > div#formu > h1{
+        font-size: 1.2em;
+    
+    }
+
 }
