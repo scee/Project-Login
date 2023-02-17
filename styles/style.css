@@ -26,7 +26,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+
     background-color: white;
     width: 250px;
     height: 515px;
@@ -35,6 +35,7 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.664);
     transition: width 0.5s, height 0.5;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 section#login > div#img {
     background: #5f2c82 url(../imgs/pexels-igor-visuals-3681805.jpg) no-repeat;
@@ -51,6 +52,10 @@ section#login > div#formu > h1{
     text-align: center;
     margin-bottom: 10px;
 }
+section#login > div#formu > p{
+    margin: 20px 0px;
+}
+
 form > input[type= submit]{
     display: block;
     font-size: 1em;
@@ -115,8 +120,9 @@ div#campo > input {
     
     font-size: 1em;
     width: (calc(100% - 40px));
-    transform: translateY(-10px);
+   
     height: 74%;
     border-radius: 5px;
+    transform: translateY(-10px);
    
 }
